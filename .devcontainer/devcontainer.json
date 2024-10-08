@@ -2,7 +2,8 @@
 	"extensions": [
 		"ms-python.python",
 		"formulahendry.code-runner",
-		"fabiospampinato.vscode-monokai-night"
+		"fabiospampinato.vscode-monokai-night",
+		"mechatroner.rainbow-csv"
 	]
 
 }
