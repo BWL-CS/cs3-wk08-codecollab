@@ -17,6 +17,7 @@ print(company_counts, "\n---------------------")
 
 df['Weight'] = df['Weight'].str.replace('kg', '')
 df['Weight'] = df['Weight'].astype(float)
+
 df.rename(columns={'Weight': 'Weight_kg'}, inplace=True)
 print(df[['Weight_kg']].head(), "\n---------------------")
 
